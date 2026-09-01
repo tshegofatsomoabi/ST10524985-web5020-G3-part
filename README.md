@@ -69,7 +69,8 @@ The organisation itself is fictional, so organisational facts such as its name, 
 4. Website Structure and Planning
 4.1 Sitemap
 
- 
+ <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/e9417bf7-e3bb-4412-ac7f-603c9ccb1efa" />
+
 
 5. HTML Structure and Basic Content
 The website contains five HTML pages as required. Each page uses HTML5 structure with header, navigation, main content and footer.
@@ -80,29 +81,46 @@ About Us: organisation story, mission, vision and target audiences.
 Services: rescue, shelter, veterinary support, adoption, fostering and education.
 Enquiry: form for adoption, fostering, volunteering, rescue and donation enquiries.
 Contact: contact information and guidance for reporting an animal in danger.
+
 6. Wireframes
  
 1. Home Page
+   
+   <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/ee38b78a-dfd7-4c33-a734-a1e03ff2f810" />
+
 The home page introduces Hope Haven Animal Rescue and explains its main purpose. It includes a short welcome message and links to the main sections of the website.
 
  
 2. About Us Page
+   
+   <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/0b092520-2683-4a7c-9b87-ccc52e928901" />
+
 The About Us page provides information about Hope Haven, including its mission, vision and the animals it helps.
 
 
  
 3. Services Page
+   
+   <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/cfceb9e4-6f78-4e62-bf96-cc88e7adef3e" />
+
 The Services page explains the main services offered by Hope Haven, including animal rescue, temporary care, adoption, fostering and volunteering.
 
  
 4. Enquiry Page
+   
+   <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/cccd3067-35c8-4b19-bbf5-b7457296de23" />
+
 The Enquiry page allows visitors to submit an enquiry about adoption, fostering, volunteering, donations or an animal in need.
 
  
 5. Contact Page
+   
+   <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/ac8bc91f-ef6b-4ab5-8e5d-4addc4c4f784" />
+
 The Contact page provides Hope Haven’s contact details and information on how to report an abandoned or vulnerable animal.
 
 7. budget
+   
 Item	Estimated amount
 Domain name (annual estimate)	R250
 Basic hosting (annual estimate)	R1,200
@@ -114,6 +132,7 @@ Estimated total	R2,500
 
  
 8. Timeline and Milestones
+
 Milestone	Planned timing
 Week 1	Finalise approved organisation, proposal and research
 Week 1	Complete sitemap, content plan and folder structure
@@ -123,10 +142,11 @@ Week 1,2 and 3	Test, debug, check references and update README
 Final submission period	Push final repository and submit required Word/PDF documents
 
 
-
  
 References
+
 Johannesburg SPCA. 2026. Volunteer. Available: https://jhbspca.co.za/volunteer/
 (Accessed 1 September 2026).
+
 The Independent Institute of Education. 2024. IIE Quick Reference Guide: Harvard Style Reference Guide — Adapted for The IIE. Available: https://irp.cdn-website.com/271d35b6/files/uploaded/The%20IIE%20Harvard%20Style%20Reference%20Guide%20-%20Adapted%20for%20the%20IIE%202024.pdf
 (Accessed 1 September 2026).
