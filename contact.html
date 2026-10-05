@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Hope Haven Animal Rescue</title>
+    <!-- The viewport tag supports responsive layout on phones and tablets. -->
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Hope Haven Animal Rescue in Gauteng, South Africa.">
+    <title>Contact | Hope Haven Animal Rescue</title><link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Hope Haven Animal Rescue</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About Us</a> |
-            <a href="services.html">Services</a> |
-            <a href="enquiry.html">Enquiry</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-
+    <!-- Shared site header preserves the same navigation pattern on each page. -->
+    <header class="site-header"><div class="container header-inner">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">♥</span><span>Hope Haven <small>Animal Rescue</small></span></a>
+        <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Our Work</a><a href="enquiry.html">Enquiry</a><a class="active" href="contact.html" aria-current="page">Contact</a></nav>
+    </div></header>
     <main>
-        <h2>Contact Us</h2>
-
-        <p><strong>Email:</strong> hello@hopehaven.org</p>
-        <p><strong>Telephone:</strong> 010 555 0147</p>
-        <p><strong>Location:</strong> Gauteng, South Africa</p>
-
-        <h3>Rescue Enquiries</h3>
-        <p>If you see an abandoned or vulnerable animal, contact Hope Haven and provide the location and information about the animal.</p>
+        <!-- The banner gives the contact page a clear heading and short explanation. -->
+        <section class="page-banner"><div class="container"><p class="eyebrow">Reach out</p><h1>Contact us</h1><p>We welcome questions and messages from our community.</p></div></section>
+        <section class="section"><div class="container contact-layout">
+            <div><p class="eyebrow">Get in touch</p><h2>We would love to hear from you.</h2><p>Whether you want to support our work or report an animal in need, use the details below or send an enquiry.</p></div>
+            <!-- Contact details are grouped into cards to make each type of information easy to find. -->
+            <div class="contact-cards">
+                <article class="contact-card"><span class="card-icon" aria-hidden="true">✉</span><div><h3>Email</h3><a href="mailto:hello@hopehaven.org">hello@hopehaven.org</a></div></article>
+                <article class="contact-card"><span class="card-icon" aria-hidden="true">☎</span><div><h3>Telephone</h3><a href="tel:+27105550147">010 555 0147</a></div></article>
+                <article class="contact-card"><span class="card-icon" aria-hidden="true">⌖</span><div><h3>Location</h3><p>Gauteng, South Africa</p></div></article>
+            </div>
+        </div></section>
+        <section class="section section-soft"><div class="container rescue-note"><h2>Seen an animal that needs help?</h2><p>If it is safe to do so, note the animal's location and condition. Contact us with these details. Do not put yourself or the animal at further risk.</p><a class="button button-primary" href="enquiry.html">Send an enquiry</a></div></section>
     </main>
-
-    <footer>
-        <p>&copy; 2026 Hope Haven Animal Rescue</p>
-    </footer>
+    <!-- Shared footer provides consistent branding and a return route to the home page. -->
+    <footer class="site-footer"><div class="container footer-inner"><a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true">♥</span><span>Hope Haven <small>Animal Rescue</small></span></a><p>Giving vulnerable animals a chance at a better life.</p><small>© 2026 Hope Haven Animal Rescue</small></div></footer>
 </body>
 </html>
