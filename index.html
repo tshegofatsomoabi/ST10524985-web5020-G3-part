@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Sets the character encoding and makes the page scale correctly on mobile devices. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Hope Haven Animal Rescue</title>
+    <meta name="description" content="Hope Haven Animal Rescue helps vulnerable animals find safety, care and loving homes.">
+    <title>Home | Hope Haven Animal Rescue</title>
+    <!-- One shared external stylesheet keeps the appearance consistent across all pages. -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Hope Haven Animal Rescue</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About Us</a> |
-            <a href="services.html">Services</a> |
-            <a href="enquiry.html">Enquiry</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
+    <!-- The header contains the organisation name and the main site navigation. -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Hope Haven home">
+                <span class="brand-mark" aria-hidden="true">♥</span>
+                <span>Hope Haven <small>Animal Rescue</small></span>
+            </a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a class="active" href="index.html" aria-current="page">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Our Work</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <h2>Welcome to Hope Haven</h2>
-        <p>Hope Haven Animal Rescue is a non-profit organisation that helps abandoned, neglected and vulnerable animals.</p>
-
-        <h2>Our Goal</h2>
-        <p>Our goal is to rescue animals, provide them with care and help them find safe and loving homes.</p>
-
-        <h2>How You Can Help</h2>
-        <ul>
-            <li>Adopt an animal</li>
-            <li>Become a foster family</li>
-            <li>Volunteer</li>
-            <li>Donate</li>
-        </ul>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Hope Haven Animal Rescue</p>
-    </footer>
-</body>
-</html>
+        <!-- The hero introduces the purpose of the organisation and gives visitors a clear next step. -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">A safer place. A brighter future.</p>
+                    <h1>Every animal deserves a little <em>hope.</em></h1>
+                    <p class="lead">We rescue vulnerable animals, give them the care they need and help them find a loving place to call home.</p>
+                    <div class="button-row">
+                        <a class="button button-primary" href="enquiry.html">Get involved</a>
+                        <a class="text-link" href="about.html">Learn about us <span aria-hidden="true">→</span></a>
+                    </div>
+                </div>
+                <!-- Responsive image markup lets the browser select an appropriate image source for the screen. -->
+                <div class="hero-art">
+                    <picture>
+                        <source media="(max-width: 640px)" srcset="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=640&auto=format&fit=crop&q=80">
+                        <source media="(min-width: 641px)" srcset="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=1200&auto=format&fit=crop&q=85">
+                        <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=1200&auto=format&fit=crop&q=85" alt="Friendly dog looking toward the camera" fetchpriority="high">
+                    </picture>
+                    <div class="image-note"><span class="note-icon" aria-hidden="true">✦</span><span><strong>Care changes everything</strong><small>One safe place can change a life.</small></span></div>
+                </div>
