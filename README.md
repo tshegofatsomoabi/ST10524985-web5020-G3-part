@@ -1,16 +1,5 @@
 PART 1
-Our two organisations
-Proposal 1: Golden Crumb Bakery
-
-Golden Crumb Bakery is a proposed small local bakery that produces fresh bread, cakes, pastries and celebration treats. The proposed website would give customers an easy way to discover the bakery, view products, request custom cakes and make enquiries. The target audience would include local residents, families, students, event organisers and customers looking for baked goods for birthdays and other occasions.
-
-The main website goals would be to improve the bakery's online presence, increase enquiries, showcase products and make it easier for customers to contact the business. Key features would include a welcoming homepage, an About page explaining the bakery, a Products page with categories and descriptions, an Enquiry page for custom orders, and a Contact page with business details. A simple gallery and promotional call-to-action could also be included.
-
-The visual design would use warm bakery-inspired colours, clear typography and high-quality food imagery. The navigation would remain simple so that users can quickly find products or make an enquiry. The website would be responsive so that customers can access it on mobile phones, tablets and desktop computers.
-
-The technical solution would use HTML5 for page structure, CSS3 for styling and JavaScript for basic interaction. The project would use a clear folder structure containing HTML, CSS, JavaScript and image assets. The website would be tested in multiple browsers before submission.
-
-The website would support the bakery's organisational objectives by making product information easier to access and creating a clear online path from browsing to enquiry. Success could be measured through enquiry submissions, page visits, product-page engagement and growth in online customer interactions. This proposal is included as the second option that was presented for lecturer approval.
+One organisation
 
 Proposal 2: Hope Haven Animal Rescue — APPROVED
 
@@ -150,3 +139,220 @@ Johannesburg SPCA. 2026. Volunteer. Available: https://jhbspca.co.za/volunteer/
 
 The Independent Institute of Education. 2024. IIE Quick Reference Guide: Harvard Style Reference Guide — Adapted for The IIE. Available: https://irp.cdn-website.com/271d35b6/files/uploaded/The%20IIE%20Harvard%20Style%20Reference%20Guide%20-%20Adapted%20for%20the%20IIE%202024.pdf
 (Accessed 1 September 2026).
+
+
+Hope Haven Animal Rescue – Part 2
+
+
+Part 2 Overview
+
+
+Part 2 focuses on improving the visual design and responsiveness of the Hope Haven Animal Rescue website using CSS.
+
+
+The original Part 1 HTML pages were kept and updated. 
+
+
+What Was Added in Part 2
+
+
+1. External CSS stylesheet
+
+A new external stylesheet called style.css was created in the css folder and linked to all five HTML pages:
+
+index.html
+
+about.html
+
+services.html
+
+enquiry.html
+
+contact.html
+
+Using one external stylesheet keeps the design consistent across the website.
+
+
+2. Base styling
+
+A consistent base style was created for the website. This includes:
+
+Font family and font sizes.
+
+A consistent green, sage, cream and coral colour scheme.
+
+Margins and padding.
+
+A CSS reset for consistent styling across browsers.
+
+Reusable CSS variables for colours and common design values.
+
+
+3. Layout structure
+
+CSS Grid and Flexbox were used to structure the website.
+
+The layout includes:
+
+Header and navigation.
+
+Hero section.
+
+Information cards.
+
+Service cards.
+
+Two-column content sections.
+
+Enquiry form.
+
+Contact information cards.
+
+Footer.
+
+
+4. Visual styling
+
+CSS properties were used to improve the appearance of the website, including:
+
+color
+
+background-color
+
+border
+
+border-radius
+
+box-shadow
+
+Typography.
+
+Spacing.
+
+Buttons.
+
+Navigation links.
+
+Content cards.
+
+5. Interactive styling
+
+CSS pseudo-classes were used to improve interaction:
+
+:hover for links and buttons.
+
+:focus-visible for keyboard accessibility.
+
+:active for buttons.
+
+Focus styling for form controls.
+
+
+6. Responsive design
+
+Media queries were added to support different screen sizes:
+
+Desktop.
+
+Tablet.
+
+Mobile.
+
+The multi-column layouts change to simpler layouts on smaller screens. Navigation, text, cards, forms and spacing are also adjusted for smaller devices.
+
+
+7. Relative units
+
+Relative units such as rem, em, %, vw and clamp() were used where appropriate. Flexible grid columns and responsive widths were also used to allow the website to adapt to different screen sizes.
+
+
+8. Responsive images
+
+Responsive image techniques were added using:
+
+picture
+
+srcset
+
+sizes
+
+These allow the browser to use an appropriate image source depending on the screen size.
+
+
+9. HTML comments
+
+Explanatory comments were added to the HTML pages to describe important sections of the code.
+
+Comments were added around areas such as:
+
+Header and navigation.
+
+Hero sections.
+
+Content sections.
+
+Forms.
+
+Responsive images.
+
+Footers.
+
+
+10. Enquiry form improvements
+
+The enquiry form was improved with:
+
+Labels connected to form controls.
+
+Required fields.
+
+Email input validation.
+
+An enquiry type selection.
+
+A message field.
+
+Improved accessibility and usability.
+
+Part 1 Feedback Applied
+
+Testing
+
+The website should be tested using browser developer tools at different screen sizes.
+
+The following should be checked:
+
+Desktop layout.
+
+Tablet layout.
+
+Mobile layout.
+
+Navigation links.
+
+Form controls.
+
+Text readability.
+
+Images.
+
+Buttons and hover states.
+
+No horizontal scrolling on smaller screens.
+
+Screenshots showing the website on desktop, tablet and mobile should be added to the GitHub repository as evidence of responsive testing.
+
+
+References
+
+Johannesburg SPCA. 2026. Volunteer. Available: https://jhbspca.co.za/volunteer/ (Accessed 5 October 2026).
+
+Mozilla Developer Network. 2026. CSS Grid Layout. Available: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout (Accessed 5 October 2026).
+
+Mozilla Developer Network. 2026. CSS Flexible Box Layout. Available: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout (Accessed 5 October 2026).
+
+Mozilla Developer Network. 2026. CSS Media Queries. Available: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries (Accessed 5 October 2026).
+
+Mozilla Developer Network. 2026. Responsive images. Available: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images (Accessed 5 October 2026).
+
+Mozilla Developer Network. 2026. . Available: https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible (Accessed 5 October 2026).
