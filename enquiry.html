@@ -1,50 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry - Hope Haven Animal Rescue</title>
+    <!-- Metadata improves page compatibility and describes the enquiry page. -->
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Hope Haven about adoption, fostering, volunteering, donations or animal rescue.">
+    <title>Enquiry | Hope Haven Animal Rescue</title><link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Hope Haven Animal Rescue</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About Us</a> |
-            <a href="services.html">Services</a> |
-            <a href="enquiry.html">Enquiry</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-
+    <!-- Consistent navigation remains available while visitors complete the form. -->
+    <header class="site-header"><div class="container header-inner">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">♥</span><span>Hope Haven <small>Animal Rescue</small></span></a>
+        <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Our Work</a><a class="active" href="enquiry.html" aria-current="page">Enquiry</a><a href="contact.html">Contact</a></nav>
+    </div></header>
     <main>
-        <h2>Make an Enquiry</h2>
-
-        <form>
-            <label for="name">Full Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-
-            <label for="type">Enquiry Type:</label><br>
-            <select id="type" name="type">
-                <option>Adoption</option>
-                <option>Fostering</option>
-                <option>Volunteering</option>
-                <option>Donation</option>
-                <option>Animal Rescue</option>
-            </select><br><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="6" cols="40"></textarea><br><br>
-
-            <input type="submit" value="Submit Enquiry">
-        </form>
+        <!-- The page banner sets expectations before the user reaches the form. -->
+        <section class="page-banner"><div class="container"><p class="eyebrow">Take the next step</p><h1>Make an enquiry</h1><p>Choose how you would like to help, and send us a message.</p></div></section>
+        <section class="section"><div class="container form-layout">
+            <div class="form-intro"><p class="eyebrow">Let's connect</p><h2>Every message can be the start of something good.</h2><p>Use this form for adoption, fostering, volunteering, donations or to tell us about an animal that may need help.</p><p class="small-note">This is a front-end demonstration form. It does not send information to a server.</p></div>
+            <!-- Labels are connected to controls to support accessibility and clear form use. -->
+            <form class="enquiry-form" action="#" method="get">
+                <div class="field"><label for="name">Full name</label><input type="text" id="name" name="name" autocomplete="name" required></div>
+                <div class="field"><label for="email">Email address</label><input type="email" id="email" name="email" autocomplete="email" required></div>
+                <div class="field"><label for="type">Enquiry type</label><select id="type" name="type" required><option value="">Select an option</option><option>Adoption</option><option>Fostering</option><option>Volunteering</option><option>Donation</option><option>Animal rescue</option></select></div>
+                <div class="field"><label for="message">Your message</label><textarea id="message" name="message" rows="5" required></textarea></div>
+                <button class="button button-primary" type="submit">Submit enquiry <span aria-hidden="true">→</span></button>
+            </form>
+        </div></section>
     </main>
-
-    <footer>
-        <p>&copy; 2026 Hope Haven Animal Rescue</p>
-    </footer>
+    <!-- The footer provides a consistent end point and additional site identity. -->
+    <footer class="site-footer"><div class="container footer-inner"><a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true">♥</span><span>Hope Haven <small>Animal Rescue</small></span></a><p>Giving vulnerable animals a chance at a better life.</p><small>© 2026 Hope Haven Animal Rescue</small></div></footer>
 </body>
 </html>
