@@ -314,33 +314,32 @@ A message field.
 
 Improved accessibility and usability.
 
-Part 1 Feedback Applied
+Mobile responsive:
 
-Testing
 
-The website should be tested using browser developer tools at different screen sizes.
+1. Home page
 
-The following should be checked:
+   <img width="300" height="600" alt="Screenshot 2026-10-05 202028" src="https://github.com/user-attachments/assets/95db9748-31f0-4eae-96df-f84382e967dc" />
 
-Desktop layout.
 
-Tablet layout.
+2. About us page
 
-Mobile layout.
+<img width="300" height="600" alt="Screenshot 2026-10-05 202047" src="https://github.com/user-attachments/assets/aebcaa7f-c92a-4ca4-b4d7-bc888348df36" />
 
-Navigation links.
 
-Form controls.
+3. Service page
 
-Text readability.
+   <img width="300" height="600" alt="Screenshot 2026-10-05 202204" src="https://github.com/user-attachments/assets/bb602bf0-3266-4e83-921f-03ec78f81475" />
 
-Images.
 
-Buttons and hover states.
+4. Enquiry page
 
-No horizontal scrolling on smaller screens.
+   <img width="300" height="600" alt="Screenshot 2026-10-05 202216" src="https://github.com/user-attachments/assets/f6617778-cd69-451a-b543-996ac7c41d8b" />
 
-Screenshots showing the website on desktop, tablet and mobile should be added to the GitHub repository as evidence of responsive testing.
+
+5. Contact page
+
+   <img width="300" height="600" alt="Screenshot 2026-10-05 202230" src="https://github.com/user-attachments/assets/12941dcf-4193-4ebe-86f0-b15765405b68" />
 
 
 References
